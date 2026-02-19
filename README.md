@@ -1,2 +1,19 @@
 # Sayı Tahmin Oyunu
-Bilgisayarın 0-9 arası rastgele ürettiği 6 sayıyı, oyuncunun 1-10 arası girdiği 6 sayıyla karşılaştıran bir tahmin oyunudur. Aynı pozisyondaki eşleşmeler puan kazandırır: Skor = 10^(bilinen sayı). Menüde D ile oynanır, ESC ile çıkılır. Girilen ve üretilen sayılar, bilinen sayı adedi ve skor gösterilir. Renkli konsol arayüzü vardır.
+
+Basit bir konsol tabanlı sayı tahmin oyunu. Oyuncu 1-10 arasında 6 sayı girer, bilgisayar rastgele 6 sayı üretir.
+
+## Nasıl Oynanır
+- Program her çalıştığında bilgisayar rastgele 6 sayı üretir
+- Sizden 6 sayı girmeniz istenir
+- Aynı pozisyondaki sayılar eşleşirse puan kazanırsınız
+- Skor: 10^(bildiğiniz sayı adedi) formülüyle hesaplanır
+
+## Kontroller
+- **D/d**: Oyuna başla
+- **ESC**: Çıkış
+- **E/e**: Çıkış onayı
+
+## Özellikler
+- Renkli konsol arayüzü
+- Basit skor sistemi
+- Sürekli oynama imkanı
